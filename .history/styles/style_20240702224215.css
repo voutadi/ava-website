@@ -11,7 +11,7 @@ body {
 }
 header {
   max-width: 100%; /*Make sure Take all of her parent element(body)on all different devices .*/
-  height: 80px;
+  height: px;
   position: fixed;
   top: 0;
   left: 0;
