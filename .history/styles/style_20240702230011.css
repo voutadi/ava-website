@@ -24,7 +24,7 @@ header {
   box-shadow: 0 2px 4px rgba(243, 172, 172, 0.15); /* Adds a subtle shadow for depth, optional */
 }
 .logo-container {
-  max-width: 55px; /* Put condition for smaller or biger divice*/
+  width: 55px; /* Put condition for smaller or biger divice*/
   background-color: rgb(181, 179, 172);
   height: 100%;
 }
