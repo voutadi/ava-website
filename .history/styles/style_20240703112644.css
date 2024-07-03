@@ -19,7 +19,6 @@ header {
   background-color: rgb(206, 205, 205);
   display: flex;
   justify-content: space-between;
-  align-items: center;
   
 
   box-shadow: 0 2px 4px rgba(243, 172, 172, 0.15); /* Adds a subtle shadow for depth, optional */
