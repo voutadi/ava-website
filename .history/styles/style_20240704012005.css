@@ -25,10 +25,10 @@ header {
   box-shadow: 0 2px 4px rgba(243, 172, 172, 0.15); /* Adds a subtle shadow for depth, optional */
 }
 .logo-container {
-  width: 60px;/* Put condition for smaller or biger divice*/
+  width: 60px; /* Put condition for smaller or biger divice*/
   
 
-  background-color: #c7b2b2;
+  background-color: #f4cbcb;
   height: 60px;
 }
 .logo {
@@ -50,33 +50,32 @@ header {
   margin: 1rem;
 }
 .navbar a {
-  font-size: 20px;
-  color: rgb(25, 20, 20);
+  font-size: 1rem;
+  color: rgb(23, 22, 22);
   font-weight: 500;
 
   text-decoration: none;
 }
 .navbar a:hover {
-  background-color: rgb(192, 175, 175);
-  padding: 2px 4px;
-  border-radius: 6px;
+  background-color: rgb(184, 175, 175);
+  padding: 5px 10px;
+  border-radius: 16px;
   transition: 0.15s;
 }
 
 .navbar a:active {
-  background-color: rgb(176, 163, 163);
-  
-  
-  
-  
+  background-color: rgb(196, 194, 194);
+  padding: 10px 10px;
+  border-radius: 16px;
+  transition: 0.15s;
 }
 
 button {
   background-color: black;
-  color: rgb(255, 255, 255);
+  color: white;
   font-size: 1rem;
   padding: 8px 12px;
-  margin-right: 1rem;
+  margin-right: 1.5rem;
   border-width: 2px;
   border-style: solid;
   border-radius: 20px;
@@ -121,10 +120,10 @@ p {
     padding: 3px;
   }
   .navbar li {
-    margin: 0.18rem;
+    margin: 0.2rem;
   }
   .navbar a {
-    font-size: 0.5rem;
+    font-size: 0.55rem;
   }
 
 
@@ -176,33 +175,3 @@ p {
     font-size: 0.8rem;
   }
 }
-@media (min-width:901px){
-  .navbar a {
-    font-size: 1.2rem;
-
-
-  }
-  .navbar li {
-    margin: 1.6rem;
-  }
-  button {
-    font-size: 1.2rem;
-    font-weight: 600px;
-    
-    padding: 4px 8px;
-    margin-right: 1rem;
-    border-radius: 16px;
-
-  }
-  button:hover {
-    font-size: 1.4rem;
-    padding: 6px 10px;
-  }
-  button:active {
-    padding: 3px;
-  }
-
-
-}
-
-

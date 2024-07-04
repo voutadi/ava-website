@@ -73,10 +73,10 @@ header {
 
 button {
   background-color: black;
-  color: rgb(255, 255, 255);
+  color: rgb(192, 189, 189);
   font-size: 1rem;
   padding: 8px 12px;
-  margin-right: 1rem;
+  margin-right: 1.5rem;
   border-width: 2px;
   border-style: solid;
   border-radius: 20px;

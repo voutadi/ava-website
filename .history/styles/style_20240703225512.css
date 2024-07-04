@@ -4,19 +4,19 @@
   box-sizing: border-box;
 }
 body {
-   background-color: #ebcfcf;
+  background-color: #f5f5f5;
   height: 3000px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
 }
 header {
   max-width: 100%; /*Make sure Take all of her parent element(body)on all different devices .*/
-  height: 60px;
+  height: 55px;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  background-color: #f9c7c7;
+  background-color: #e3d1d1;
   
   display: flex;
   justify-content: space-between;
@@ -25,15 +25,15 @@ header {
   box-shadow: 0 2px 4px rgba(243, 172, 172, 0.15); /* Adds a subtle shadow for depth, optional */
 }
 .logo-container {
-  width: 60px;/* Put condition for smaller or biger divice*/
+  max-width: 55px; /* Put condition for smaller or biger divice*/
   
 
-  background-color: #c7b2b2;
-  height: 60px;
+  background-color: #e9cccc;
+  height: 55px;
 }
 .logo {
   color: rgb(50, 21, 77);
-  font-size: 0.45rem;
+  font-size: 0.4rem;
   font-weight: bold;
 }
 
@@ -45,47 +45,45 @@ header {
   flex-wrap: wrap;
 }
 .navbar li {
-  display: flex;
-  justify-content: end;
   margin: 1rem;
 }
 .navbar a {
-  font-size: 20px;
-  color: rgb(25, 20, 20);
+  font-size: 1rem;
+  color: rgb(23, 22, 22);
   font-weight: 500;
 
   text-decoration: none;
 }
 .navbar a:hover {
-  background-color: rgb(192, 175, 175);
-  padding: 2px 4px;
-  border-radius: 6px;
+  background-color: rgb(184, 175, 175);
+  padding: 5px 10px;
+  border-radius: 16px;
   transition: 0.15s;
 }
 
 .navbar a:active {
-  background-color: rgb(176, 163, 163);
-  
-  
-  
-  
+  background-color: rgb(196, 194, 194);
+  padding: 10px 10px;
+  border-radius: 16px;
+  transition: 0.15s;
 }
 
 button {
-  background-color: black;
-  color: rgb(255, 255, 255);
+  background-color:b
+  
+
   font-size: 1rem;
   padding: 8px 12px;
-  margin-right: 1rem;
+  margin-right: 1.5rem;
   border-width: 2px;
   border-style: solid;
   border-radius: 20px;
   cursor: pointer;
 }
 button:hover {
-  background-color:white;
   
-  color:black;
+  background-color: white;
+  color: black
   transition: 0.15s;
   padding: 12px 18px;
 }
@@ -121,12 +119,12 @@ p {
     padding: 3px;
   }
   .navbar li {
-    margin: 0.18rem;
+    margin: 0.2rem;
   }
   .navbar a {
-    font-size: 0.5rem;
+    font-size: 0.55rem;
   }
-
+}
 
 @media (min-width: 381px) and (max-width: 600px) {
   body {
@@ -176,33 +174,3 @@ p {
     font-size: 0.8rem;
   }
 }
-@media (min-width:901px){
-  .navbar a {
-    font-size: 1.2rem;
-
-
-  }
-  .navbar li {
-    margin: 1.6rem;
-  }
-  button {
-    font-size: 1.2rem;
-    font-weight: 600px;
-    
-    padding: 4px 8px;
-    margin-right: 1rem;
-    border-radius: 16px;
-
-  }
-  button:hover {
-    font-size: 1.4rem;
-    padding: 6px 10px;
-  }
-  button:active {
-    padding: 3px;
-  }
-
-
-}
-
-

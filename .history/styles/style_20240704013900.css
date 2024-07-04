@@ -50,8 +50,8 @@ header {
   margin: 1rem;
 }
 .navbar a {
-  font-size: 20px;
-  color: rgb(25, 20, 20);
+  font-size: 2rem;
+  color: rgb(52, 38, 38);
   font-weight: 500;
 
   text-decoration: none;
@@ -64,19 +64,18 @@ header {
 }
 
 .navbar a:active {
-  background-color: rgb(176, 163, 163);
-  
-  
+  background-color: rgb(152, 142, 142);
+  de
   
   
 }
 
 button {
   background-color: black;
-  color: rgb(255, 255, 255);
+  color: white;
   font-size: 1rem;
   padding: 8px 12px;
-  margin-right: 1rem;
+  margin-right: 1.5rem;
   border-width: 2px;
   border-style: solid;
   border-radius: 20px;
@@ -121,10 +120,10 @@ p {
     padding: 3px;
   }
   .navbar li {
-    margin: 0.18rem;
+    margin: 0.2rem;
   }
   .navbar a {
-    font-size: 0.5rem;
+    font-size: 0.55rem;
   }
 
 
@@ -176,33 +175,3 @@ p {
     font-size: 0.8rem;
   }
 }
-@media (min-width:901px){
-  .navbar a {
-    font-size: 1.2rem;
-
-
-  }
-  .navbar li {
-    margin: 1.6rem;
-  }
-  button {
-    font-size: 1.2rem;
-    font-weight: 600px;
-    
-    padding: 4px 8px;
-    margin-right: 1rem;
-    border-radius: 16px;
-
-  }
-  button:hover {
-    font-size: 1.4rem;
-    padding: 6px 10px;
-  }
-  button:active {
-    padding: 3px;
-  }
-
-
-}
-
-
