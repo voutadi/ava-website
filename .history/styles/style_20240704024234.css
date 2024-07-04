@@ -16,7 +16,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  background-color: #eed2d2;
+  background-color: #f8d7d7;
   
   display: flex;
   justify-content: space-between;
@@ -28,7 +28,7 @@ header {
   width: 60px;/* Put condition for smaller or biger divice*/
   
 
-  background-color: #e9cece;
+  background-color: #c7b2b2;
   height: 60px;
 }
 .logo {
