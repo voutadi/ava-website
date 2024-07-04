@@ -70,7 +70,7 @@ header {
 
 button {
   background-color: white;
-  color: black;
+  c
 
   font-size: 1rem;
   padding: 8px 12px;
@@ -81,8 +81,7 @@ button {
   cursor: pointer;
 }
 button:hover {
-  background-color: black;
-  color: white;
+  background-color: rgb(187, 181, 181);
   transition: 0.15s;
   padding: 12px 18px;
 }

@@ -81,8 +81,7 @@ button {
   cursor: pointer;
 }
 button:hover {
-  background-color: black;
-  color: white;
+  background-color: ;
   transition: 0.15s;
   padding: 12px 18px;
 }

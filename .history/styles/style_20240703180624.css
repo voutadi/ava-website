@@ -16,8 +16,8 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  background-color: #e3d1d1;
-  
+  background-color: #d7c5c5;
+  border-bottom: 1px solid;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,10 +26,8 @@ header {
 }
 .logo-container {
   max-width: 55px; /* Put condition for smaller or biger divice*/
-  
-
-  background-color: #e9cccc;
-  height: 55px;
+  background-color: rgb(181, 179, 172);
+  height: 100%;
 }
 .logo {
   color: rgb(50, 21, 77);
@@ -69,8 +67,7 @@ header {
 }
 
 button {
-  background-color: white;
-  color: black;
+  background-color: rgb(235, 235, 235);
 
   font-size: 1rem;
   padding: 8px 12px;
@@ -81,8 +78,7 @@ button {
   cursor: pointer;
 }
 button:hover {
-  background-color: black;
-  color: white;
+  background-color: rgb(187, 181, 181);
   transition: 0.15s;
   padding: 12px 18px;
 }
@@ -96,12 +92,7 @@ p {
 @media (max-width: 380px) {
   body {
     font-size: 0.35rem;
-  }
-   /* Smaller font size */
-  
-  }
- 
-  
+  } /* Smaller font size */
   button {
     font-size: 0.45rem;
     padding: 2px;
