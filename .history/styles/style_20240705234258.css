@@ -29,7 +29,7 @@ header {
   width: 60px;/* Put condition for smaller or biger divice*/
   
 
-  background-color: #b8a9a9;
+  background-color: #cfbcbc;
   height: 60px;
 }
 .logo {
@@ -77,10 +77,10 @@ button {
   color: rgb(255, 255, 255);
   font-size: 1rem;
   padding: 10px 20px;
-  margin-right: 2rem;
+  margin-right: 1rem;
   border-width: 2px;
   border-style: solid;
- 
+  border-radius: 20px;
   cursor: pointer;
 }
 button:hover {
@@ -88,7 +88,7 @@ button:hover {
   
   color:black;
   transition: 0.15s;
-  padding: 12px 24px;
+  padding: 12px 18px;
 }
 button:active {
   padding: 18px 24px;
