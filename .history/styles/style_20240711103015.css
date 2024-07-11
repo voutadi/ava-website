@@ -5,7 +5,7 @@
 }
 body {
   background-color: hwb(345 88% 11%);
-
+   
   height: 3000px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
@@ -18,7 +18,7 @@ header {
   left: 0;
   right: 0;
   background-color: #c5b5b5;
-
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,7 +26,8 @@ header {
   box-shadow: 0 2px 4px rgba(243, 172, 172, 0.15); /* Adds a subtle shadow for depth, optional */
 }
 .logo-container {
-  width: 60px; /* Put condition for smaller or biger divice*/
+  width: 60px;/* Put condition for smaller or biger divice*/
+  
 
   background-color: #b8a9a9;
   height: 60px;
@@ -65,6 +66,10 @@ header {
 
 .navbar a:active {
   background-color: rgb(176, 163, 163);
+  
+  
+  
+  
 }
 
 button {
@@ -75,13 +80,13 @@ button {
   margin-right: 2rem;
   border-width: 2px;
   border-style: solid;
-
+ 
   cursor: pointer;
 }
 button:hover {
-  background-color: white;
-
-  color: black;
+  background-color:white;
+  
+  color:black;
   transition: 0.15s;
   padding: 12px 24px;
 }
@@ -96,27 +101,33 @@ p {
   body {
     font-size: 0.35rem;
   }
-  /* Smaller font size */
-}
+   /* Smaller font size */
+  
+  }
+ 
+  
+  button {
+    font-size: 0.45rem;
+    padding: 2px;
+    margin-right: 0.3rem;
+   
+  }
+  button:hover {
+    font-size: 0.45rem;
+    padding: 2px;
+    
+    
+  }
+  button:active {
+    padding: 3px;
+  }
+  .navbar li {
+    margin: 0.18rem;
+  }
+  .navbar a {
+    font-size: 0.5rem;
+  }
 
-button {
-  font-size: 0.45rem;
-  padding: 2px;
-  margin-right: 0.3rem;
-}
-button:hover {
-  font-size: 0.45rem;
-  padding: 2px;
-}
-button:active {
-  padding: 3px;
-}
-.navbar li {
-  margin: 0.18rem;
-}
-.navbar a {
-  font-size: 0.5rem;
-}
 
 @media (min-width: 381px) and (max-width: 600px) {
   body {
@@ -166,9 +177,11 @@ button:active {
     font-size: 0.8rem;
   }
 }
-@media (min-width: 901px) {
+@media (min-width:901px){
   .navbar a {
     font-size: 1.2rem;
+
+
   }
   .navbar li {
     margin: 1.6rem;
@@ -176,10 +189,11 @@ button:active {
   button {
     font-size: 1.2rem;
     font-weight: 600px;
-
+    
     padding: 4px 8px;
     margin-right: 1rem;
     border-radius: 16px;
+
   }
   button:hover {
     font-size: 1.4rem;
@@ -188,4 +202,7 @@ button:active {
   button:active {
     padding: 3px;
   }
+
+
 }
+
