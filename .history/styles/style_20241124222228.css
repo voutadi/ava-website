@@ -46,11 +46,11 @@ body {
 }
 .navbar li {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   margin: 1rem;
 }
 .navbar a {
-  font-size: 1rem;
+  font-size: 2px;
   color: rgb(25, 20, 20);
   font-weight: 500;
 
@@ -96,3 +96,9 @@ body {
 
   cursor: pointer;
 }
+.login :hover {
+  background-color: white;
+
+  color: black;
+  transition: 0.15s;
+ 

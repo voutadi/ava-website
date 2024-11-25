@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(128,128,0);
+
+  height: 3000px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+.header {
+  max-width: 100%; /*Make sure Take all of her parent element(body)on all different devices .*/
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(0,139,139);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 0 2px 4px rgba(243, 172, 172, 0.15); /* Adds a subtle shadow for depth, optional */
+}
+.logo-container {
+  width: 70px; /* Put condition for smaller or biger divice*/
+
+  background-color: rgb(51, 107, 85);
+  height: 70px;
+}
+.logo {
+  color: rgb(50, 21, 77);
+  font-size: 0.45rem;
+  font-weight: bold;
+}
+
+.navbar ul {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+.navbar li {
+  display: flex;
+  justify-content: end;
+  margin: 1rem;
+}
+.navbar a {
+  font-size: 2px;
+  color: rgb(25, 20, 20);
+  font-weight: 500;
+
+  text-decoration: none;
+}
+.navbar a:hover {
+  background-color: rgb(192, 175, 175);
+  padding: 2px 4px;
+  border-radius: 6px;
+  transition: 0.15s;
+}
+
+.navbar a:active {
+  background-color: rgb(176, 163, 163);
+}
+.appointment{
+  display: flex;
+  flex-direction: row;
+}
+.login{
+  background-color: black;
+  color: rgb(255, 255, 255);
+  font-size: .8rem;
+  padding: 10px 20px;
+  margin-right: 1rem;
+  border-width: 2px;
+  border-style: solid;
+
+  cursor: pointer;
+
+}
+
+.book-session {
+
+  background-color: black;
+  color: rgb(255, 255, 255);
+  font-size: rem;
+  padding: 10px 20px;
+  margin-right: 1rem;
+  margin-left: 2rem;
+  border-width: 2px;
+  border-style: solid;
+
+  cursor: pointer;
+}
+button:hover {
+  background-color: white;
+
+  color: black;
+  transition: 0.15s;
+  padding: 12px 24px;
+}
+button:active {
+  padding: 18px 24px;
+}
+p {
+  margin-top: 120px;
+  margin-left: 20px;
+}
+@media (max-width: 380px) {
+  body {
+    font-size: 0.35rem;
+  }
+  /* Smaller font size */
+}
+
+button {
+  font-size: 0.45rem;
+  padding: 2px;
+  margin-right: 0.3rem;
+}
+button:hover {
+  font-size: 0.45rem;
+  padding: 2px;
+}
+button:active {
+  padding: 3px;
+}
+.navbar li {
+  margin: 0.18rem;
+}
+.navbar a {
+  font-size: 0.5rem;
+}
+
+@media (min-width: 381px) and (max-width: 600px) {
+  body {
+    font-size: 0.5rem;
+  } /* Smaller font size */
+  button {
+    font-size: 0.5rem;
+    padding: 2px 4px;
+    margin-right: 0.5rem;
+    border-radius: 10px;
+  }
+  button:hover {
+    font-size: 0.5rem;
+    padding: 2px;
+  }
+  button:active {
+    padding: 3px;
+  }
+  .navbar li {
+    margin: 0.3rem;
+  }
+  .navbar a {
+    font-size: 0.6rem;
+  }
+}
+@media (min-width: 601px) and (max-width: 910px) {
+  body {
+    font-size: 0.75rem;
+  } /* Smaller font size */
+  button {
+    font-size: 0.75rem;
+    padding: 2px 4px;
+    margin-right: 0.75rem;
+    border-radius: 10px;
+  }
+  button:hover {
+    font-size: 0.75rem;
+    padding: 2px;
+  }
+  button:active {
+    padding: 3px;
+  }
+  .navbar li {
+    margin: 0.5rem;
+  }
+  .navbar a {
+    font-size: 0.8rem;
+  }
+}
+@media (min-width: 911px) {
+  .navbar a {
+    font-size: 1.2rem;
+  }
+  .navbar li {
+    margin: 1.6rem;
+  }
+  button {
+    font-size: 1.2rem;
+    font-weight: 600px;
+
+    padding: 4px 8px;
+    margin-right: 1rem;
+    border-radius: 16px;
+  }
+  button:hover {
+    font-size: 1.4rem;
+    padding: 6px 10px;
+  }
+  button:active {
+    padding: 3px;
+  }
+}
